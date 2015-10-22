@@ -46,9 +46,9 @@ function createServerCallbackHandler(request, response) {
 // Create a connection to the mysql database
 var dbConn = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: 'January24',
-    database: 'connectme'
+    user: 'Your username',
+    password: 'Your password',
+    database: 'Your db name'
 });
 
 // Establish the database connection
