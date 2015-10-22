@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Apeksha/Apek/Semester%203/SE1/AutotasX-master/AutotasX-master/app/src/main/res/values-w820dp/colors.xml -->
+    <eat-comment/>
+    <color name="fab_color_1">#ff5252</color>
+    <color name="fab_color_1_muted">#ff8080</color>
+    <color name="fab_color_2">#9c27b0</color>
+    <color name="fab_color_2_muted">#a56ab0</color>
+    <!-- From: file:/C:/Users/Apeksha/Apek/Semester%203/SE1/AutotasX-master/AutotasX-master/app/src/main/res/values-w820dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <!-- From: file:/C:/Users/Apeksha/Apek/Semester%203/SE1/AutotasX-master/AutotasX-master/app/src/main/res/values-w820dp/google_maps_api.xml -->
+    <eat-comment/>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyAHLti46oy4zfG5zbOf1Px_xlJlEEvvPiU
+    </string>
+</resources>

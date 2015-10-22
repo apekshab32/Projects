@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Apeksha/Apek/Semester%203/SE1/AutotasX-master/AutotasX-master/app/src/main/res/values-v21/strings.xml -->
+    <eat-comment/>
+    <string name="rem">Reminder</string>
+    <string name="silent">Silent</string>
+    <string name="sms">Sms</string>
+    <string name="wifi">Wi-Fi</string>
+    <!-- From: file:/C:/Users/Apeksha/Apek/Semester%203/SE1/AutotasX-master/AutotasX-master/app/src/main/res/values-v21/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+    </style>
+</resources>
