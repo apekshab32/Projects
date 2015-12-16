@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Student Name: Apeksha Bhat(aab1003-1000981003)  
+url: http://omega.uta.edu/~aab1003/project3/yelp.html#  -->
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Best Restaurants on a Map</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">   
+    <meta charset="utf-8"/>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="yelp.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body onload="initialize();"  style="margin:0" >
+    <form id="form-header" style="height: 150px;background-color: #008000;font-weight: normal;"> 
+        <img src="logo.png" style="height:130px;width:160px;float:left; margin-left:20px; margin-top:5px;margin-right: 250px;"></img>
+        <h1 id="header" style="font-weight: normal;">The Passion for the Perfect Taste </h1>
+        <div style=";font-size:15px;margin-left: 500px;">
+           Foodie Search:<input type="text" style="height:20px;" id="search"/>
+           <input type="button" style="height:25px;" id="find" onclick="sendRequest();" value="Find"/>
+        </div>
+    </form>
+    <div id="output" style="position:relative;float:left;width:600px;height:500px;margin-top:180px;margin-left:30px;border-width:4px;border-style:groove;border-color:#000000">&nbsp;</div>
+    <div id="displays" style="position:relative;float:left;margin-left:50px;display:none;margin-top:180px;width:550px;font-size:12pt;color:#000033;;15 border-width:2px;border-style:groove;background-color:#FFFFFF;overflow-y:scroll;max-height:500px;" >&nbsp;</div>
+  </body>
+</html>
